@@ -1,0 +1,10 @@
+CompleteGPS is a GPS library and NMEA parser for Arduino. 
+
+It is designed to have a similar look and feel to TinyGPS, but it parses more NMEA sentances and provides more information. In addition to nagivation data (position, speed, course) and time it provides dilution of precision, GPS fix information, plus information about each individual satellite in use. 
+
+This library has been tested on the Arduino Due, however it should also work on the Mega 2560 and other AVR Arduinos. 
+
+CompleteGPS was developed for the FireTail UAV Project.
+www.camelsoftware.com/firetail/
+
+
