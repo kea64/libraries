@@ -82,24 +82,24 @@
 #define SERVO_MIDPOINT 1500
 #define SERVO_MINIMUM 1000
 
-#define KPRS 1
+#define KPRS 1.9
 #define KIRS 0
 #define KDRS 0
 #define KMRS 25
 
-#define KPRR 0.582
-#define KIRR 2.59
-#define KDRR 0.032
+#define KPRR 0.194
+#define KIRR 0.862
+#define KDRR 0.029
 #define KMRR 25
 
-#define KPPS 1
+#define KPPS 1.9
 #define KIPS 0
 #define KDPS 0
 #define KMPS 25
 
-#define KPPR 0.582
-#define KIPR 2.59
-#define KDPR 0.032
+#define KPPR 0.194
+#define KIPR .862
+#define KDPR 0.029
 #define KMPR 25
 
 #define KPYS 0

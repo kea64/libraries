@@ -25,7 +25,7 @@ void updateController(struct PID_REGISTER &channels, struct TARGET_STRUCT target
 		double cycle = (micros() - controlClockOld) * DIV_BY_MICRO;
 		count += 1;
 
-		channel6Var = intMap(channel6Cycle, SERVO_MINIMUM, SERVO_MAXIMUM, 0, 2);
+		channel6Var = intMap(channel6Cycle, SERVO_MINIMUM, SERVO_MAXIMUM, 0, 3);
 		channels.rsPID.updateGain(channel6Var, 0, 0);
 		channels.psPID.updateGain(channel6Var, 0, 0);
 
